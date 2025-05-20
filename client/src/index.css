@@ -1,0 +1,30 @@
+.ant-tooltip-inner {
+  background-color: rgba(102, 99, 121, 1) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(102, 99, 121, 1) !important;
+}
+
+.dark .ant-tooltip-inner {
+  background-color: rgba(41, 41, 41, 1) !important;
+  color: #ffffff !important;
+  border-color: rgba(51, 51, 51, 1) !important;
+}
+
+:root {
+  --selected-header: #bcf9ff; /* xanh nước biển nhạt */
+  --selected-header-hover: #8dd7fc; /* xanh nước biển đậm hơn khi hover */
+  --selected-text: #1e3a5f; /* xanh đậm, dễ đọc trên nền sáng */
+}
+
+/* Xóa toàn bộ style mặc định của nút a-button */
+.ant-btn {
+  box-shadow: none !important; /* Không có shadow */
+  font-weight: 500;
+}
+
+/* Hiệu ứng hover */
+.ant-btn:hover {
+  background: #e6f4ff !important; /* Nền xanh nhạt khi hover */
+  color: #1890ff !important; /* Đảm bảo màu chữ khi hover */
+  border-color: #1890ff !important; /* Đảm bảo viền khi hover */
+}
